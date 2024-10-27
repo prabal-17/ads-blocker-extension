@@ -1,4 +1,41 @@
 Here’s a high-level breakdown of how an ad blocker Chrome extension works in terms of its general workflow, focusing on ad-blocking functionality, user interaction, and rule management.
+# Chrome Ad Blocker Extension
+
+This Chrome extension blocks intrusive ads and enhances the browsing experience by preventing distracting ads from loading. It provides a simple toggle to enable or disable ad-blocking directly from the extension's popup.
+
+## Overview
+
+![Project Logo](ext1.png) <!-- Add a logo or relevant image here -->
+
+---
+
+### How It Works
+
+The extension uses predefined rules to block ad-related requests on web pages. The user interface provides an "On/Off" toggle to easily enable or disable ad-blocking.
+
+**Before Blocking Ads**
+
+![Before Ad Blocking](ext2.png)
+
+**After Blocking Ads**
+
+![After Ad Blocking](ext3.png)
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/username/ad-blocker-extension.git
+   ```
+2. Open Chrome and go to `chrome://extensions`.
+3. Enable **Developer Mode**.
+4. Click **Load unpacked** and select the cloned folder.
+
+### Features
+
+- Blocks various types of ads (banners, pop-ups, video ads).
+- Improves page load times and browsing experience.
+- Simple toggle button for ad-blocking control.
 
 ### 1. **Initializing the Extension (manifest.json)**
    - **Purpose**: The `manifest.json` file acts as the configuration file that sets up permissions, background scripts, and user interface options.
